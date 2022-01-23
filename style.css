@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+*{
+    text-transform: capitalize;
+}
 
 body{
     font-family: 'Poppins', sans-serif;
@@ -18,6 +21,9 @@ body{
 .btn-grey{
     background-color: #FDF4FA !important;
     border-radius: 20px !important;
+}
+.hot-plans{
+    background: url(icons/watermark.svg) right no-repeat;
 }
 .item{
     list-style: none;
