@@ -13,7 +13,7 @@ body{
 }
 
 .carousel-caption{
-    bottom: 100px;
+    /* bottom: 100px; */
 }
 .btn-grey{
     background-color: #FDF4FA !important;
@@ -49,6 +49,49 @@ body{
     transform: translateY(-50%);
     background-color: #EDEBF8;
 
+}
+.review{
+    margin: 100px 0;
+
+}
+.review .carousel-item{
+    text-align: center !important;
+    height: 450px !important;
+
+}
+.review .carousel-item img{
+    width: 150px !important;
+    border-radius: 50%;
+}
+
+.review .carousel-caption{
+    z-index: -1 !important;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    box-shadow: 0 0 15px 1px rgba(166, 163, 223, 0.5);
+}
+.review .carousel-caption h5{
+    margin-top: 55px !important;
+    font-weight: bold;
+    color: #000;
+}
+.review .carousel-caption small{
+    margin-top: 10px !important;
+    display: block;
+    margin-bottom: 50px !important;
+    color: #000;
+}
+.review .carousel-inner .carousel-caption p{
+    text-align: center;
+    padding: 0 50px;
+    font-size: 15px;
+    margin-bottom: 50px;
+    color: #808080;
+}
+
+.review .carousel-indicators button{
+    background: #6900d1 !important;
+    height: 0 !important;
 }
 
 /* media queries */
