@@ -7,27 +7,20 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
-.front-page{
-    /* height: 100vh; */
-}
+/* Navbar  */
 .nav-link:hover{
     color: #3F87F5!important;
 }
 .nav-item{
     border-bottom: 0.5px solid rgba(0, 0, 0, 0.05);
 }
-
-.vh-100 .carousel-caption{
-    bottom: 100px;
+/* Home  */
+.front-page .carousel-caption{
+    bottom: 100px !important;
 }
-.overlay-img{
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-position: center;
-    background-size: cover;
+.front-page .carousel-inner .carousel-item img{
+    height: 90vh;
+    object-fit: cover;
 }
 .btn-grey{
     background-color: #FDF4FA !important;
@@ -109,6 +102,11 @@ body{
 }
 
 
+
+
+
+
+
 /* media queries */
 @media(min-width: 991px){
     .nav-item{
@@ -137,11 +135,20 @@ body{
     .front-page .carousel-caption h5{
         font-size: 16px !important;
     }
-    .front-page .carousel-caption p{
-        display: none !important;
-    }
     .sm-btn{
         padding: 5px 10px !important;
         font-size: 16px;
+    }
+    .start-100{
+        left: 50% !important;
+    }
+    .price .card-body{
+        padding: 1rem 3rem !important;
+    }
+    .front-page .carousel-inner .carousel-item img{
+        height: 60vh;
+    }
+    .front-page .carousel-caption{
+        bottom: 40px !important;
     }
 }
