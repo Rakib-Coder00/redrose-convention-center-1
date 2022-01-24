@@ -8,7 +8,7 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 .front-page{
-    height: 100vh;
+    /* height: 100vh; */
 }
 .nav-link:hover{
     color: #3F87F5!important;
@@ -108,10 +108,6 @@ body{
     color: #808080;
 }
 
-.review .carousel-indicators button{
-    background: #6900d1 !important;
-    height: 0 !important;
-}
 
 /* media queries */
 @media(min-width: 991px){
@@ -124,6 +120,10 @@ body{
 }
 
 @media (max-width: 991px) {
+    .navbar-brand{
+        font-size: 15px !important;
+        text-align: start;
+    }
     .review .carousel-item{
         height: 500px !important;
     }
@@ -131,5 +131,17 @@ body{
         margin: 0 10px 50px 10px !important;
         left: 0 !important;
         right: 0 !important;
+    }
+}
+@media (max-width: 450px) {
+    .front-page .carousel-caption h5{
+        font-size: 16px !important;
+    }
+    .front-page .carousel-caption p{
+        display: none !important;
+    }
+    .sm-btn{
+        padding: 5px 10px !important;
+        font-size: 16px;
     }
 }
