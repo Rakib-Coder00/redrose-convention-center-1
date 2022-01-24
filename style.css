@@ -135,6 +135,9 @@ body{
     .front-page .carousel-caption h5{
         font-size: 16px !important;
     }
+    .front-page .carousel-caption p{
+        display: none ;
+    }
     .sm-btn{
         padding: 5px 10px !important;
         font-size: 16px;
